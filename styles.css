@@ -1,0 +1,423 @@
+body{
+    background: rgb(2,0,36);
+    margin: 0;
+}
+
+.navBar{
+    display: flex;
+    justify-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    top: 0%;
+    left: 0%;
+}
+
+.logo{
+    margin-left: 17px;
+    margin-top: -14px;
+    height: 147px;
+    width: 147px;
+}
+
+.home{
+    padding-left: 920px;
+    padding-top: 10px;
+}
+
+.about{
+    padding-left: 70px;
+    padding-top: 10px;
+}
+
+.skill{
+    padding-left: 70px;
+    padding-top: 10px;
+}
+
+.contact{
+    padding-left: 70px;
+    padding-top: 10px;
+}
+
+.project{
+    padding-left: 70px;
+    padding-top: 10px;
+}
+
+
+.navBtn{
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    font-family: "Geomatrix";
+    font-size: 25px;
+    font-weight: 400;
+    color: #5e5b5b;
+    text-transform:uppercase;
+}
+
+a:link{
+    text-decoration: none;
+    color: #5e5b5b;
+}
+
+a:visited{
+    text-decoration: none;
+    color: #5e5b5b;
+}
+
+a:hover
+{
+    color: rgb(235, 237, 237);
+}
+
+h1
+{
+    color: white;
+    margin-top: 100px;
+    padding-top: 247px;
+    padding-left: 283px;
+    padding-right: 283px;
+    font-size: 50px;
+}
+
+p{
+    padding-left: 283px;
+    color: aliceblue;
+    font-size: 30px;
+}
+
+.page1{
+    color: black;
+    font-family: "Montserrat";
+    display: flex;
+    margin-top: 10px;
+    background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgba(1, 1, 54, 0.961) 60%, rgba(82,0,120,1) 100%);
+    height: 918px
+}
+
+
+.div2{
+    margin-left: 0px;
+}
+
+.self{
+    height:489px;
+    width:465px;
+    margin-top: 250px;
+}
+
+.btn{
+    margin-left: 283px;
+    margin-top: 20px;
+    height: 42px;
+    width: 177px;
+    font-size: 25px;
+    font-family: "Montserrat";
+    border-radius: 6px;
+    border-width: 2px;
+    border-color: aliceblue;
+    background-color: #70acff;
+    font-weight: 500;
+    color: aliceblue;
+}
+
+.page2
+{
+    background: linear-gradient(180deg, rgba(82,0,120,1) 0%, rgba(1, 1, 54, 0.961) 40%, rgb(0, 0, 0) 100%);
+    margin-top: -43px;
+    height: 900px;
+}
+
+.aboutContent{
+    font-size: 50px;
+    font-family: "Montserrat";
+    padding-top: 148px;
+    padding-left: 283px;
+    color: aliceblue;
+}
+
+.aboutpara{
+    font-size: 35px;
+    line-height: 60px;
+    padding-left: 30px;
+    text-align: center;
+    font-family: "Geomatrix";
+    padding-top: 40px;
+}
+
+.welcome{
+    font-size: 55px;
+    line-height: 60px;
+    padding-left: 30px;
+    text-align: center;
+    font-family: "Geomatrix";
+    color: aliceblue;
+    margin: 0px;
+    padding-top: 200px;
+}
+
+.icon-bar {
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.icon-bar a {
+    display: block;
+    text-align: center;
+    margin: 5px 2px;
+    padding: 5px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 40px;
+}
+
+.icon-bar a:hover {
+    background-color: #000;
+}
+
+.github {
+    background: #272b33;
+    color: white;
+}
+
+.linkedin {
+    background: #639fda;
+    color: white;
+}
+
+.mail{
+    background: #be3817;
+    color: white;
+}
+
+.logo1{
+    height: 40px;
+    width: 40px;
+}
+
+.page4
+{
+    background: linear-gradient(180deg, rgb(0,0,0) 0%, rgba(1, 1, 54, 0.961) 60%, rgba(82,0,120,1) 100%);
+    margin-top: -50px;
+    height: 1000px;
+}
+
+.one{
+    margin: 40px 50px 0px 477px;
+    height: 200px;
+    width: 200px;
+    filter: grayscale(1);
+}
+
+.two{
+    margin: 40px 120px 0px 120px;
+    height: 200px;
+    width: 200px;
+    filter: grayscale(1);
+}
+
+.three{
+    margin: 40px 50px 0px 50px;
+    height: 200px;
+    width: 200px;
+    filter: grayscale(1);
+}
+
+.four{
+    margin: 40px 50px 0px 477px;
+    height: 200px;
+    width: 200px;
+    filter: grayscale(1);
+}
+
+.five{
+    margin: 40px 120px 0px 120px;
+    height: 200px;
+    width: 200px;
+    filter: grayscale(1);
+}
+
+.six{
+    margin: 40px 50px 0px 50px;
+    height: 200px;
+    width: 200px;
+    filter: grayscale(1);
+}
+
+.seven{
+    margin: 40px 50px 0px 672px;
+    height: 200px;
+    width: 200px;
+    filter: grayscale(1);
+}
+
+.eight{
+    margin: 40px 50px 0px 120px; 
+    height: 200px;
+    width: 200px;
+    filter: grayscale(1);
+}
+
+.skillIntro{
+    font-size: 50px;
+    font-family: "Montserrat";
+    padding-top: 100px;
+    padding-left: 283px;
+    color: aliceblue;
+}
+
+.one:hover{
+    filter: grayscale(0);
+}
+.two:hover{
+    filter: grayscale(0);
+}
+.three:hover{
+    filter: grayscale(0);
+}
+.four:hover{
+    filter: grayscale(0);
+}
+.five:hover{
+    filter: grayscale(0);
+}
+.six:hover{
+    filter: grayscale(0);
+}
+.seven:hover{
+    filter: grayscale(0);
+}
+.eight:hover{
+    filter: grayscale(0);
+}
+
+.page5
+{
+    background: linear-gradient(180deg, rgba(82,0,120,1) 0%, rgba(1, 1, 54, 0.961) 40%, rgb(0, 0, 0) 100%);
+    margin-top: -118px;
+    height: 900px;
+}
+
+.contactTitle{
+    font-size: 50px;
+    color: aliceblue;
+    padding-left: 283px;
+    padding-top: 100px;
+    font-family: "Montserrat";
+    margin-bottom: 10px;
+}
+
+.contactTitleLine{
+    width: 330px;
+    height: 3px;
+    background-color: aliceblue;
+    border-color: aliceblue;
+    margin-left: 300px;
+    margin-right: 0px;
+    margin-top: -13px;
+}
+
+.skillTitleLine{
+    width: 124px;
+    height: 3px;
+    background-color: aliceblue;
+    border-color: aliceblue;
+    margin-left: 288px;
+    margin-right: 0px;
+    margin-top: -51px;
+}
+
+.nameField{
+    font-size: 20px;
+    height: 30px;
+    font-family: "Geomatrix";
+    margin-left: 700px;
+    margin-top: 100px;
+    margin-right: 40px;
+    width: 513px;
+    padding: 10px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    background: transparent;
+    color: aliceblue;
+}
+
+.msgField{
+    font-size: 20px;
+    height: 190px;
+    font-family: "Geomatrix";
+    margin-left: 700px;
+    margin-top: 20px;
+    margin-right: 40px;
+    width: 513px;
+    padding: 10px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    background: transparent;
+    color: aliceblue;
+}
+
+.emailField{
+    font-size: 20px;
+    height: 30px;
+    font-family: "Geomatrix";
+    margin-left: 700px;
+    width: 513px;
+    margin-top: 20px;
+    margin-right: 40px;
+    padding: 10px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    background: transparent;
+    color: aliceblue;
+}
+
+.btnField{
+    font-size: 30px;
+    height: 60px;
+    font-family: "Geomatrix";
+    margin-left: 900px;
+    margin-top: 20px;
+    margin-right: 40px;
+    width: 130px;
+    padding: 10px;
+    color: aliceblue;
+    font-weight: 600;
+    color: #fff;
+    border: 3px solid #c266d3;
+    border-radius: 20px;
+    background-image: -webkit-linear-gradient(30deg, #c266d3 50%, transparent 50%);
+    background-image: linear-gradient(30deg, #c266d3 50%, transparent 50%);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: 0%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+}
+.btnField:hover {
+    background-position: 100%;
+    color: #c266d3;
+}
+
+footer{
+    background-color: #000;
+    padding-top: 100px;
+    padding-left: 830px;
+    padding-bottom: 5px;
+    color: aliceblue;
+    font-size: 30px;
+    font-family: "Montserrat";
+}
+
+.footerText{
+    font-weight: 300;
+}

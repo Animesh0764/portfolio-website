@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Portfolio</title>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            // https://dashboard.emailjs.com/admin/account
+            emailjs.init('VKchfOHiHfRfRpH2x');
+        })();
+    </script>
+    <script type="text/javascript">
+        window.onload = function() {
+            document.getElementById('contact-form').addEventListener('submit', function(event) {
+                event.preventDefault();
+                // generate a five digit number for the contact_number variable
+                this.contact_number.value = Math.random() * 100000 | 0;
+                // these IDs from the previous steps
+                emailjs.sendForm('contact_service', 'contact_form', this)
+                    .then(function() {
+                        console.log('SUCCESS!');
+                    }, function(error) {
+                        console.log('FAILED...', error);
+                    });
+            });
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <div class="icon-bar">
+            <a href="https://www.linkedin.com/in/animesh-singh-93bb69251/" class="linkedin" target="_blank"><i class="fa fa-linkedin"><img src="linkedinlogo.png" class="logo1"></i></a>
+            <a href="https://github.com/Animesh0764" class="github"><i class="fa fa-github"><img src="githublogo.png"></i></a>
+            <a href="mailto:animeshbksingh@outlook.com" class="mail"><i class="fa fa-mail"><img src="mail.png"></i></a>   
+        </div>
+    </header>
+    <div class="navBar">
+        <div>
+            <!-- <h1>AS</h1> -->
+            <a href="#home"><img src="sign.png" alt="AS" class="logo"></a>
+        </div>
+        <ul class="navBtn">
+            <li class="home"><a href="#home" id="linkOne">Home</a></li>
+            <li class="about"><a href="#about">About</a></li>
+            <li class="project"><a href="#projects">Projects</a></li>
+            <li class="skill"><a href="#skills">Skills</a></li>
+            <li class="contact"><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+        <div class="page1" id="home">
+            <div class="div1">
+                <h1 class="homeContent">Hello everyone <br> MY NAME IS ANIMESH</h1>
+                <p class="homeIntro">I am a front-end developer</p>
+
+                <button class="btn">My work</button>
+            </div>
+
+            <div class="div2">
+                <img src="IMG_0015.png" alt="img" class="self">
+            </div>
+        </div>
+
+    <div class="page2" id="about">
+        <h2 class="aboutContent"><u>About</u></h2>
+        <p class="aboutpara">As a web developer, I find myself lost in the world of HTML and CSS, constantly striving to create <br> visually stunning and user-friendly websites. My passion for design and development is only rivaled <br> by my eagerness to learn and explore the possibilities of backend programming with JavaScript. <br> With each project, I aim to push my creative limits and deliver exceptional results that exceed expectations.</p>
+
+        <h4 class="welcome">So welcome to my world and dive right in</h4>
+    </div>
+
+    <div class="page4" id="skills">
+        <h3 class="skillIntro">Skills</h3>
+        <hr class="skillTitleLine">
+        <img src="logos/clogo.png" class="one">
+        <img src="logos/c++.png" class="two">
+        <img src="logos/pylogo.png" class="three"><br>
+        <img src="logos/htmllogo.png" class="four">
+        <img src="logos/csslogo.png" class="five">
+        <img src="logos/mysql.png" class="six"><br> 
+        <img src="logos/reactnativelogo.png" class="seven">
+        <img src="logos/nodejs.png" class="eight">
+    </div>
+
+
+    <div class="page5" id="contact">
+        <div>
+            <h6 class="contactTitle">Contact Form</h6>
+            <hr class="contactTitleLine">
+
+            <form id="contact-form">
+                <input type="hidden" name="contact_number">
+                <input type="text" name="user_name" placeholder="Name" class="nameField"><br>
+                <input type="email" name="user_email" placeholder="Email" class="emailField"><br>
+                <textarea name="message" placeholder="Suggestions/Comments/Message..." class="msgField"></textarea><br>
+                <input type="submit" value="Send" class="btnField">
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <h6 class="footerText">©Made By Animesh Singh</h6>
+    </footer>
+</body>
+</html>
