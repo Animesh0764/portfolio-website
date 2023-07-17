@@ -783,5 +783,32 @@ section{
     }
 }
 
+.btn-contact{
+    padding: 0.7rem 1.5rem;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    margin-bottom: 5rem;
+    font-family: inherit;
+    font-weight: 600;
+    border: 1px solid var(--color-secondary);
+    position: relative;
+    background-color: transparent;
+    color: inherit;
+    display: flex;
+    align-self: flex-start;
+    align-items: center;
+    overflow: hidden;
+    box-shadow: inset 0 0 0 0 var(--color-secondary);
+    transition: var(--trans-eio);
+
+    &:hover{
+        box-shadow: inset 0 -100px 0 0 var(--color-secondary);
+    }  
+
+    &:active{
+        transform: scale(0.9);
+    }
+}
+
 //importing media queries
 @import './media';

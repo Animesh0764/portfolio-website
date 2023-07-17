@@ -42,4 +42,19 @@ themeBtn.click(function() {
     $('body').toggleClass("light-mode");
 });
 
+function sendEmail(){
+    Email.send({
+        SecureToken: "335ae31b-a2f4-41d9-bdcb-a1e49ff05524",
+        Host : "smtp.elasticemail.com",
+        Username : "animesh07singh@gmail.com",
+        Password : "F032CBA8187E89D509B9C26FF716BA50A79E",
+        To : 'animesh07singh@gmail.com',
+        From : $('.emailinput').value,
+        Subject : $('.subjectinput').value,
+        Body : "Name: " + $('.nameinput').value + "<br> Email: " + $('.emailinput').value + "<br> Message: " + $('.msginput').value,
+    }).then(
+        message => alert("Message sent successfully!!")
+    );
+};
+
 PageTransition();
