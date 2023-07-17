@@ -1,0 +1,4 @@
+[[redirects]]
+  from = "/*"
+  to = "/maintenance.html"
+  status = 200
