@@ -375,6 +375,11 @@ section{
     align-self: flex-start;
     align-items: center;
     overflow: hidden;
+
+    &:active{
+        transform: scale(0.97);
+    }
+
     .btn-text{
         padding-right: -1rem;
         padding-left: 1rem;
