@@ -330,14 +330,27 @@ section{
                         background-color: var(--color-secondary);
                         transition: var(--trans-eio);
                     }
+                    .cpp{
+                        width: 95%;
+                    }
+                    .c{
+                        width: 95%;
+                    }
+                    .go{
+                        width: 50%;
+                    }
+                    .express{
+                        width: 90%;
+                    }
+                    .react{
+                        width: 90%;
+                    }
                     .html{
                         width: 95%;
                     }
-
                     .css{
                         width: 95%;
                     }
-
                     .javascript{
                         width: 70%;
                     }
@@ -347,11 +360,17 @@ section{
                     }
 
                     .django{
-                        width: 40%;
+                        width: 75%;
                     }
 
                     .nodejs{
-                        width: 50%;
+                        width: 90%;
+                    }
+                    .mongo{
+                        width: 60%;
+                    }
+                    .mysql{
+                        width: 85%;
                     }
                 }
             }
