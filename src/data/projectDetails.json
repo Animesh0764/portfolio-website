@@ -1,0 +1,78 @@
+[
+  {
+    "path": "/projects/codex",
+    "title": "Codex",
+    "description": [
+      "Codex is an innovative Competitive Programming Analyzer designed to elevate the experience of tracking and analyzing your progress on LeetCode and other competitive programming platforms. This powerful tool leverages the robustness of Django, HTML, CSS, and JavaScript to deliver a seamless and user-friendly interface that enables users to monitor their coding journey effectively. Codex not only serves as a personal tracker but also enhances the competitive spirit by allowing users to add friends and engage in friendly competitions. This combination of individual tracking and social interaction makes Codex an essential tool for anyone looking to stay ahead in the coding game.",
+      "At its core, Codex is built to provide users with comprehensive insights into their competitive programming performance. It aggregates statistics from various competitive programming websites, presenting them in a consolidated and easily digestible format. The intuitive design ensures that users can quickly access their stats, track their progress over time, and identify areas for improvement. By visualizing key metrics and trends, Codex helps users to stay motivated and focused on their coding goals.",
+      "In addition to personal progress tracking, Codex introduces a social dimension to competitive programming. Users can add friends to their network and compare their stats, fostering a healthy and motivating environment for growth. This feature transforms the solitary nature of coding into a collaborative and competitive experience, encouraging users to push their limits and learn from each other."
+    ],
+    "technologies": [
+      "Django: As the backbone of Codex, Django provides a powerful and flexible framework for building the application. Its high-level architecture simplifies the development process and ensures the application is secure and maintainable.",
+      "HTML5: The latest version of HTML is used to structure the web pages and ensure they are semantic and accessible. HTML5 provides the foundation for creating a clean and organized layout for Codex.",
+      "CSS3: With CSS3, Codex achieves a sleek and modern design. CSS3's advanced features and animations enhance the visual appeal of the application, making it both attractive and user-friendly.",
+      "JavaScript: JavaScript brings interactivity to Codex. It powers the dynamic elements of the application, ensuring a responsive and engaging user experience. From real-time data updates to interactive charts, JavaScript plays a crucial role in making Codex a compelling tool for competitive programmers."
+    ]
+  },
+  {
+    "path": "/projects/qriosity-24",
+    "title": "Qrosity-24",
+    "description": [
+      "Qrosity-24 is a web application developed for the ACM-JUIT (Association for Computing Machinery - Jaypee University of Information Technology) community. It serves as a Googling Skill Test Quiz, designed to challenge and enhance participants' ability to effectively search for information on the web.",
+      "The application features an engaging and user-friendly interface for participants to attempt the quiz. Each quiz session is timed to add an element of urgency and mimic real-world scenarios. Participants' scores are tracked to evaluate their performance. With a diverse set of questions, Qrosity-24 tests various aspects of googling skills. The responsive design ensures compatibility with a variety of devices, making it accessible for all participants.",
+      "Qrosity-24 aims to improve the participants' googling skills by providing a fun and competitive environment. The application helps users to practice and enhance their ability to find accurate information quickly and efficiently."
+    ],
+    "technologies": [
+      "React: A powerful JavaScript library for building dynamic and responsive user interfaces. React's component-based architecture allows for the creation of reusable UI components, making the development process more efficient and maintainable.",
+      "MongoDB: A NoSQL database known for its flexibility and scalability. MongoDB stores data in JSON-like documents, which makes it an ideal choice for handling the diverse and dynamic data structures required by Qrosity-24.",
+      "Node.js: A JavaScript runtime built on Chrome's V8 engine, enabling server-side scripting. Node.js allows Qrosity-24 to handle multiple requests simultaneously with its non-blocking, event-driven architecture, ensuring a smooth and efficient user experience.",
+      "Express: A minimalist web framework for Node.js that simplifies server-side development. Express provides a robust set of features to manage the backend of Qrosity-24, including routing, middleware, and RESTful API creation.",
+      "React Router: A standard library for routing in React applications. React Router allows Qrosity-24 to handle navigation and rendering of different views seamlessly, ensuring a smooth user experience as participants move between quiz questions and other sections of the app."
+    ]
+  },
+  {
+    "path": "/projects/murious",
+    "title": "Murious Event Website",
+    "description": [
+      "The Murious Event Website is a sophisticated platform designed to enhance the experience of attendees at the Murious tech fest, an annual event hosted by Jaypee University of Information Technology (JUIT). Built with modern web technologies, the website offers a centralized location for all event-related information, including schedules, speaker details, and more.",
+      "Murious is a vibrant, three-day tech festival that attracts students, professionals, and tech enthusiasts. It features a variety of activities such as coding competitions, workshops, guest lectures, and entertainment. The website provides a seamless and engaging interface, ensuring participants have easy access to everything they need to know about the event.",
+      "By leveraging technologies like React, Vite, TypeScript, and Firebase, the Murious Event Website delivers a dynamic and user-friendly experience. The real-time data synchronization and authentication features powered by Firebase ensure that users always have the latest information and can securely log in to access personalized content."
+    ],
+    "technologies": [
+      "React: A powerful JavaScript library used for building user interfaces. React's component-based architecture allows for the creation of interactive and dynamic web pages, making it ideal for the complex needs of the Murious Event Website.",
+      "Vite: A modern build tool that offers fast development and optimized build processes. Vite's hot module replacement (HMR) feature ensures a smooth and efficient development experience, which is crucial for maintaining the responsive and interactive nature of the website.",
+      "TypeScript: An extension of JavaScript that adds static typing to the language. TypeScript helps developers catch errors early in the development process, leading to more robust and maintainable code. This results in a more reliable and error-free user experience on the Murious Event Website.",
+      "Firebase: A comprehensive backend platform that provides real-time database capabilities and authentication services. Firebase ensures that event data is always up-to-date and allows users to securely log in to the website, enhancing the overall functionality and security of the platform."
+    ]
+  },
+  {
+    "path": "/projects/rupee-trackr",
+    "title": "Rupee-Trackr",
+    "description": [
+      "Rupee-Trackr is an innovative budgeting app designed to make managing your finances simple and effective. Built with the power of React Router, this app offers a seamless and intuitive user experience, allowing you to take control of your financial journey. The project aims to empower individuals by providing a user-friendly platform to track and manage their budget with ease.",
+      "The app leverages React Router's declarative routing system to enable smooth navigation between different budget categories. This modular design enhances code reusability and ensures that users can effortlessly switch between various sections of the app. By utilizing URL parameters, Rupee-Trackr provides precise tracking and management of budget categories, ensuring a streamlined user experience.",
+      "Rupee-Trackr also incorporates advanced state management capabilities to offer real-time updates on expenditures and remaining balances. The app's responsive design ensures optimal performance across various devices, making it easy for users to access and manage their finances anytime, anywhere. With a focus on data security, Rupee-Trackr guarantees that your financial information is safe and secure."
+    ],
+    "technologies": [
+      "React: A popular JavaScript library for building user interfaces. React's component-based architecture allows for the creation of dynamic and interactive web applications, making it ideal for the Rupee-Trackr budgeting app.",
+      "React Router: A powerful routing library for React applications. React Router enables seamless navigation and dynamic routing, ensuring a smooth user experience as users navigate through different budget categories and features within the app.",
+      "State Management: Utilizing React Router's state management capabilities, Rupee-Trackr provides real-time updates on financial data, allowing users to monitor their expenditures and remaining balances with precision and ease.",
+      "Responsive Design: The app is designed to be fully responsive, ensuring that it performs optimally on various devices. This makes it easy for users to access and manage their finances whether they are on a desktop, tablet, or mobile device."
+    ]
+  },
+  {
+    "path": "/projects/short-hub",
+    "title": "ShortHub",
+    "description": [
+      "ShortHub is a URL shortening application designed to provide a simple and efficient way to manage and share links. This app allows users to shorten long URLs, making them easier to share and track. The project utilizes the MERN stack, which includes MongoDB, Express, React, and Node.js, to deliver a robust and scalable solution for URL management.",
+      "With ShortHub, users can generate shortened URLs that are stored in MongoDB for up to 60 days. This storage system ensures that users have access to their shortened links for a reasonable period, while also maintaining a clean and manageable database. The app's intuitive interface, built with React, makes it easy for users to create and manage their shortened URLs.",
+      "In the future, ShortHub plans to integrate analytics features that will allow users to track the performance of their shortened URLs. This includes metrics such as the number of clicks, geographic distribution of clicks, and other relevant data. This feature will provide valuable insights into how shared links are being used and accessed, enhancing the overall functionality and value of the application."
+    ],
+    "technologies": [
+      "MongoDB: A NoSQL database used to store the original and shortened URLs. MongoDB's flexible schema and scalability make it ideal for handling the dynamic data requirements of a URL shortening service.",
+      "Express: A minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications. Express is used to handle the backend logic and API routes for shortening and retrieving URLs.",
+      "React: A popular JavaScript library for building user interfaces. React is used to create the frontend of ShortHub, providing a responsive and interactive experience for users.",
+      "Node.js: A JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js is used to build the backend of ShortHub, allowing for efficient handling of URL shortening operations and server-side logic."
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "category": "Frontend",
+    "skills": [
+      { "name": "React", "img": "react.webp" },
+      { "name": "HTML", "img": "css.webp" },
+      { "name": "JavaScript", "img": "javascript.webp" },
+      { "name": "CSS", "img": "react.webp" },
+      { "name": "Tailwind", "img": "react.webp" },
+      { "name": "Bootstrap", "img": "react.webp" }
+    ]
+  },
+  {
+    "category": "Backend",
+    "skills": [
+      { "name": "Node.js", "img": "nodejs.webp" },
+      { "name": "Express", "img": "express.webp" },
+      { "name": "Django", "img": "express.webp" },
+      { "name": "MongoDB", "img": "mongodb.webp" },
+      { "name": "MySQL", "img": "mysql.webp" },
+      { "name": "Firebase", "img": "firebase.webp" }
+    ]
+  },
+  {
+    "category": "DevOps",
+    "skills": [
+      { "name": "Docker", "img": "docker.webp" },
+      { "name": "Git", "img": "git.webp" }
+    ]
+  },
+  {
+    "category": "Engineering Coursework",
+    "skills": [
+      { "name": "Data Structures and Algorithms", "img": "react.webp" },
+      { "name": "Operating Systems", "img": "flutter.webp" },
+      { "name": "Database Management Systems", "img": "react.webp" },
+      { "name": "Object Oriented Programming", "img": "cpp.webp" }
+    ]
+  },
+  {
+    "category": "Others",
+    "skills": [
+      { "name": "Python", "img": "python.webp" },
+      { "name": "C++", "img": "cpp.webp" },
+      { "name": "C", "img": "csharp.webp" },
+      { "name": "Go", "img": "unity.webp" }
+    ]
+  }
+]

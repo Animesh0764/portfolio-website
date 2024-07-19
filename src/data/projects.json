@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "title": "Codex",
+    "description": "A cutting-edge Competitive Programming Analyzer built on Django HTML and CSS. Track your LeetCode progress, add friends, and engage in friendly competitions. Stay ahead in the coding game with this sleek platform! 🚀🌐💻",
+    "readMoreLink": "/projects/codex",
+    "contribution": "Full Stack(Django and HTML)",
+    "time": "6 months",
+    "githubLink": "https://github.com/Animesh0764/codex",
+    "websiteLink": "https://drive.google.com/file/d/1BHTDmMUPexc4qxSvqn2j1ivMlUXbIalm/view?usp=drive_link"
+  },
+  {
+    "id": 2,
+    "title": "Qriosity 4.0",
+    "description": "Qriosity-24 is a web app for ACM-JUIT community, designed to enhance Googling skills. Test your ability to effectively search for information on the web.",
+    "readMoreLink": "/projects/qriosity-24",
+    "contribution": "Backend(MERN) & Redux",
+    "time": "2 months",
+    "githubLink": "https://github.com/ACM-JUIT/Qriosity-24",
+    "websiteLink": "https://qriosity.juit.hosting.acm.org/"
+  },
+  {
+    "id": 3,
+    "title": "Murious 18.0",
+    "description": "The Murious Event Website for Jaypee University of Information Technology's annual tech fest providing an interactive journey throughout the extravaganza.",
+    "readMoreLink": "/projects/murious",
+    "contribution": "Backend(Firebase)",
+    "time": "2 months",
+    "githubLink": "https://github.com/Animesh0764/murious-website",
+    "websiteLink": "https://murious.jyc.co.in/"
+  },
+  {
+    "id": 4,
+    "title": "Rupee Trackr",
+    "description": "A budgeting app built with React Router, simplifying your financial journey. Take control of your finances with this user-friendly project.",
+    "readMoreLink": "/projects/rupee-trackr",
+    "contribution": "React Router Frontend",
+    "time": "1.5 weeks",
+    "githubLink": "https://github.com/Animesh0764/rupee-trackr",
+    "websiteLink": "https://rupee-trackr.netlify.app/"
+  },
+  {
+    "id": 5,
+    "title": "Short-Hub",
+    "description": "A free to use, URL shortner. I was tired of finding good url shortners that were free to use so made one myself.",
+    "readMoreLink": "/projects/short-hub",
+    "contribution": "MERN Stack",
+    "time": "3 days",
+    "githubLink": "https://github.com/Animesh0764/ShortHub",
+    "websiteLink": "https://drive.google.com/file/d/1ioVDJgnRpA7Y4QBXTr8_Whr24qvzslK3/view?usp=drive_link"
+  }
+]

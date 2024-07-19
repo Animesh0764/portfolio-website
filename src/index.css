@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+    --primary-colour: #101415;
+    --secondary-colour: #F7F3E7;
+    --tertiary-colour: #363636;
+    --home-gradient: linear-gradient(90deg, rgba(53,58,59,1) 0%, rgba(16,20,21,1) 52%, rgba(53,58,59,1) 100%);
+}
+
+@font-face {
+    font-family: 'switzer';
+    src: url('./assets/fonts/Switzer-Variable.ttf');
+}
+
+body{
+    background: var(--home-gradient);
+    color: var(--secondary-colour);
+    font-family: 'switzer';
+}

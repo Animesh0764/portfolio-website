@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'pinkfloryn';
+    src: url('../fonts/pinkfloryn-rgrll.otf');
+}
+
+.title {
+    @apply font-pinkfloryn
+}
+
+.hero-section {
+    @apply flex flex-col justify-center items-center h-screen;
+}
+
+.links {
+    @apply flex justify-around items-center;
+}
+
+.subtitle {
+    @apply my-4 relative;
+    @apply text-center;
+    @apply px-8;
+}

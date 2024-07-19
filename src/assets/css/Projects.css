@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.title {
+    @apply font-pinkfloryn
+}
+
+.hr-style {
+    background: linear-gradient(to right, transparent 50%, #000 50%, transparent 50%);
+    height: 2px;
+}
